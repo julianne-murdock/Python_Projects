@@ -12,7 +12,7 @@ with conn:
             )")
     conn.commit()
 conn.close()
-conn = sqlite3.connect('_database_assignmentpy.db')
+conn = sqlite3.connect('database_assignmentpy.db')
 
 fileList = ('information.docx', 'Hello.txt', 'myImage.png', \
             'myMovie.mpg', 'World.txt', 'data.pdf', 'myPhoto.jpg')
