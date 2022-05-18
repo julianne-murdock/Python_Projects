@@ -6,7 +6,7 @@ with conn:
     cur = conn.cursor()
     #step 2 the database will require two fields: auto-increment primary
     #integer field and a field with the datatype "string"
-    cur.execute("CREATE TABLE IF NOT EXISTS assignmnet_table ( \
+    cur.execute("CREATE TABLE IF NOT EXISTS assignment_table ( \
             ID INTEGER PRIMARY KEY AUTOINCREMENT, \
             TTA_fileList STRING \
             )")
