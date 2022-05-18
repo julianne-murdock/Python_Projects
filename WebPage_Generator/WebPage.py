@@ -23,11 +23,11 @@ class ParentWindow(Frame):
         self.txtWeb = Entry(self.master,text="web text", font=('Ariel', 11,), fg = 'black', bg='lightpurple')  
         self.txtWeb.grid(row=1, column=1, padx=(180,0), pady=(50,0)) 
 
-        self.btnSubmit = Button(self.master, text ="Submit", width= 10, height=2, command=self.webGenerator) 
-        self.btnSubmit.grid(row=2, column=1, padx=(0,0), pady=(30,0), sticky=SE)  
+        self.btnSubmit = Button(self.master, text ="Submit", width= 11, height=2, command=self.webGenerator) 
+        self.btnSubmit.grid(row=2, column=1, padx=(0,0), pady=(28,0), sticky=SE)  
 
     def webGenerator(self):
-        f = open('WebPageGenerator.html', 'w')
+        g = open('WebPageGenerator.html', 'w')
 
         message1 = """ <html>
         <head></head>
@@ -38,8 +38,8 @@ class ParentWindow(Frame):
         message3 = """</body>
         </html>"""
 
-        f.write(message1 + message2 + message3)
-        f.close()
+        g.write(message1 + message2 + message3)
+        g.close()
 
         webbrowser.open_new_tab('WebPageGenerator.html')
         
