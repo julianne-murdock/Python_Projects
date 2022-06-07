@@ -20,7 +20,7 @@ class ParentWindow(Frame):
         self.master.title('Enter the title of the window here!') 
         self.master.config(bg='lightblue')
 
-        self.txtWeb = Entry(self.master,text="web text", font=('Ariel', 11,), fg = 'black', bg='lightpurple')  
+        self.txtWeb = Entry(self.master,text="web text", font=('Ariel', 11,), fg = 'black', bg='CBC3E3')  
         self.txtWeb.grid(row=1, column=1, padx=(180,0), pady=(50,0)) 
 
         self.btnSubmit = Button(self.master, text ="Submit", width= 11, height=2, command=self.webGenerator) 
@@ -31,7 +31,7 @@ class ParentWindow(Frame):
 
         message1 = """ <html>
         <head></head>
-        <body><h1>Stay tuned for our amazing summer sale!</h1>"""
+        <body>"""
 
         message2 = self.txtWeb.get()
     
