@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\julia\Documents\GitHub\Python_Projects\python-projects\DjangoUniversity"
+set "VIRTUAL_ENV=C:\Users\julia\Documents\GitHub\Python_Projects\Django_virtualEnvs\python-projects\DjangoUniversity"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
