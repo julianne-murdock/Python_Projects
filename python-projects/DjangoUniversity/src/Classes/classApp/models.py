@@ -1,12 +1,5 @@
 from django.db import models
 
-TYPE_CHOICES = {
-	('appetizers','appetizers'),
-	('entrees','entrees'),
-	('desserts','desserts'),
-	('drinks','drinks'),
-}
-
 
 class djangoClasses(models.Model):
     title = models.CharField(max_length=60)
@@ -18,3 +11,11 @@ class djangoClasses(models.Model):
 
     def __str__(self):
         return self.title
+
+
+Student_1 = djangoClasses.objects.update_or_create(Title="Economics", CourseNumber=201, Instructor="Chubaka Baka",
+                                            Duration=1.5)
+Student_2 = djangoClasses.objects.update_or_create(Title="ART", CourseNumber=301, Instructor="Indiana Jones",
+                                            Duration=2.5)
+Student_3 = djangoClasses.objects.update_or_create(Title="Sports", CourseNumber=401, Instructor="Davy Jones Locker",
+                                            Duration=1.0)
