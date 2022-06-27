@@ -13,3 +13,4 @@ class djangoClasses(models.Model):
         return self.title
 
 
+
