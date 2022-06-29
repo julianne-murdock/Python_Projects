@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="469d4290-9c79-403a-afe0-ae28479f0859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Django_Checkbook/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/AddTransaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/AddTransaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/CreateNewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/CreateNewAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
