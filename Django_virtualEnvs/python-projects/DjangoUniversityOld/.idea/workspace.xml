@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="469d4290-9c79-403a-afe0-ae28479f0859" name="Changes" comment="" />
+    <list default="true" id="469d4290-9c79-403a-afe0-ae28479f0859" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Django_Checkbook/Django_Checkbook/Checkbook/templates/checkbook/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
